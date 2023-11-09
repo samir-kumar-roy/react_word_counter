@@ -1,10 +1,46 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  width: 50%;
+  margin: auto;
+}
+
+.text-area-form {
+  margin-top: 50px;
+}
+
+h3 {
+  margin-bottom: 30px;
+  width: fit-content;
+  font-size: 24px;
+  border-bottom: 1.5px solid rgb(157, 157, 157);
+  padding-bottom: 5px;
+}
+
+.text-area-form .buttons {
+  margin-top: 5px;
+}
+
+.text-area-form textarea {
+  height: 100px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.text-area-form textarea+button {
+  display: block;
+  width: fit-content;
+  margin-bottom: 50px;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+
+}
+
+.text-area-form textarea+button:hover {
+  cursor: pointer;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,15 +50,17 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #e1e1e2;
+  height: 2.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #333;
 }
+
+
 
 .App-link {
   color: #61dafb;
@@ -32,6 +70,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
